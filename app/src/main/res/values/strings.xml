@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Tidecoin Miner</string>
-    <string-array name="algorithms">
-        <item>yespowertide</item>
+    <string-array name="poolUsed">
+        <item>tidecoin.exchange</item>
+        <item>tidepool.world</item>
     </string-array>
 </resources>

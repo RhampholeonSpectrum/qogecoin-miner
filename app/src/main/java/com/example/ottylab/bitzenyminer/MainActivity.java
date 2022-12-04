@@ -10,10 +10,8 @@ import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -31,11 +29,9 @@ public class MainActivity extends AppCompatActivity {
     private BitZenyMiningLibrary miner;
 
     private EditText editTextUser;
-    private EditText editTextPassword;
     private EditText editTextNThreads;
     private Button buttonDrive;
-    private CheckBox checkBoxBenchmark;
-    private Spinner spinnerAlgorithm;
+    private Spinner poolSelection;
     private TextView textViewLog;
 
     private boolean running;
@@ -50,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void handleMessage(Message msg) {
+
+            System.out.print(msg);
+
             MainActivity activity = this.activity.get();
             if (activity != null) {
                 String log = msg.getData().getString("log");
@@ -80,14 +79,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        editTextPassword= (EditText) findViewById(R.id.editTextPassword);
-        editTextPassword.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View view, boolean b) {
-                storeSetting();
-            }
-        });
-
         editTextNThreads = (EditText) findViewById(R.id.editTextNThreads);
         editTextNThreads.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
@@ -100,6 +91,15 @@ public class MainActivity extends AppCompatActivity {
         buttonDrive.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                String poolAddress = "";
+                if (poolSelection.getSelectedItemPosition() == 0 ){
+                    poolAddress = "stratum+tcp://eu1-pool.tidecoin.exchange:3033";
+                }
+                if (poolSelection.getSelectedItemPosition() == 1 ){
+                    poolAddress = "stratum+tcp://178.170.40.44:6243";
+                }
+
                 if (running) {
                     Log.d(TAG, "Stop");
                     miner.stopMining();
@@ -111,16 +111,12 @@ public class MainActivity extends AppCompatActivity {
                     } catch (NumberFormatException e){}
 
                     BitZenyMiningLibrary.Algorithm algorithm = BitZenyMiningLibrary.Algorithm.YESPOWER;
-                    if (checkBoxBenchmark.isChecked()) {
-                        miner.startBenchmark(n_threads, algorithm);
-                    } else {
-                        miner.startMining(
-                            "stratum+tcp://eu1-pool.tidecoin.exchange:3033",
+                    miner.startMining(
+                            poolAddress,
                             editTextUser.getText().toString(),
-                            editTextPassword.getText().toString(),
+                            "c=TDC",
                             n_threads,
                             algorithm);
-                    }
                 }
 
                 changeState(!running);
@@ -128,11 +124,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        checkBoxBenchmark = (CheckBox) findViewById(R.id.checkBoxBenchmark);
-        spinnerAlgorithm = (Spinner) findViewById(R.id.spinnerAlgorithm);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.algorithms, android.R.layout.simple_spinner_item);
+        poolSelection = (Spinner) findViewById(R.id.poolSelection);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.poolUsed, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinnerAlgorithm.setAdapter(adapter);
+        poolSelection.setAdapter(adapter);
 
         textViewLog = (TextView) findViewById(R.id.textViewLog);
         textViewLog.setMovementMethod(new ScrollingMovementMethod());
@@ -149,27 +144,24 @@ public class MainActivity extends AppCompatActivity {
 
     private void disableSetting(boolean running) {
         editTextUser.setEnabled(!running);
-        editTextPassword.setEnabled(!running);
         editTextNThreads.setEnabled(!running);
-        spinnerAlgorithm.setEnabled(!running);
+        poolSelection.setEnabled(!running);
     }
 
     private void storeSetting() {
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editor = pref.edit();
         editor.putString("user", editTextUser.getText().toString());
-        editor.putString("password", editTextPassword.getText().toString());
         editor.putString("n_threads", editTextNThreads.getText().toString());
-        editor.putInt("algorithm", spinnerAlgorithm.getSelectedItemPosition());
+        editor.putInt("pool", poolSelection.getSelectedItemPosition());
         editor.commit();
     }
 
     private void restoreSetting() {
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
         editTextUser.setText(pref.getString("user", null));
-        editTextPassword.setText(pref.getString("password", null));
         editTextNThreads.setText(pref.getString("n_threads", null));
-        spinnerAlgorithm.setSelection(pref.getInt("algorithm", 0));
+        poolSelection.setSelection(pref.getInt("pool", 0));
     }
 
     private void showDeviceInfo() {
