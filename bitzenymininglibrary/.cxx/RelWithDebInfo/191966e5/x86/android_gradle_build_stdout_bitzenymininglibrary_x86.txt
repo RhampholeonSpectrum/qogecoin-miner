@@ -1,4 +1,4 @@
-ninja: Entering directory `C:\wallet_app\tidecoin-android-miner\bitzenymininglibrary\.cxx\RelWithDebInfo\191966e5\x86'
+ninja: Entering directory `C:\GitHub\qoge\qogeminer_4\bitzenymininglibrary\.cxx\RelWithDebInfo\191966e5\x86'
 [1/16] Building C object src/main/cpp/libcpuminer/CMakeFiles/cpuminer.dir/scrypt.c.o
 [2/16] Building ASM object src/main/cpp/libcpuminer/CMakeFiles/cpuminer.dir/scrypt-arm.S.o
 [3/16] Building ASM object src/main/cpp/libcpuminer/CMakeFiles/cpuminer.dir/scrypt-x64.S.o

@@ -1,4 +1,4 @@
-# Install script for directory: C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/src/main/cpp/libcpuminer
+# Install script for directory: C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/src/main/cpp/libcpuminer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

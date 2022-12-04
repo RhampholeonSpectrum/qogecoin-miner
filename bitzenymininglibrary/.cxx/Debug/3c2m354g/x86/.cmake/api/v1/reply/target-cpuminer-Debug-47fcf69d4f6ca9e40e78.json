@@ -72,19 +72,19 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/src/main/cpp/libcpuminer"
+					"path" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/src/main/cpp/libcpuminer"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/zlib/include"
+					"path" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/zlib/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/curl/include"
+					"path" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/curl/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/jansson/include"
+					"path" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/jansson/include"
 				}
 			],
 			"language" : "C",
@@ -129,19 +129,19 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/src/main/cpp/libcpuminer"
+					"path" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/src/main/cpp/libcpuminer"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/zlib/include"
+					"path" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/zlib/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/curl/include"
+					"path" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/curl/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/jansson/include"
+					"path" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/jansson/include"
 				}
 			],
 			"language" : "ASM",

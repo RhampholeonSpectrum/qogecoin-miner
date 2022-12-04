@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Tidecoin Miner</string>
+    <string name="app_name">Qogecoin Miner</string>
     <string-array name="poolUsed">
-        <item>tidecoin.exchange</item>
-        <item>tidepool.world</item>
+        <item>...</item>
+        <item>...</item>
     </string-array>
+    <string name="na">n/a</string>
 </resources>

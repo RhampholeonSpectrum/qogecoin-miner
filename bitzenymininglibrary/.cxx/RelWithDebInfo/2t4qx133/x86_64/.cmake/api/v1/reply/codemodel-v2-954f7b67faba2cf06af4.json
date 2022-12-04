@@ -75,8 +75,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/RelWithDebInfo/2t4qx133/x86_64",
-		"source" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary"
+		"build" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/RelWithDebInfo/2t4qx133/x86_64",
+		"source" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary"
 	},
 	"version" : 
 	{

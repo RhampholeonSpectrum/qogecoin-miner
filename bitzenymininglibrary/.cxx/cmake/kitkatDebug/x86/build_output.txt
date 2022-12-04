@@ -17,8 +17,8 @@ CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.tool
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 Check for working C compiler: C:/android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
@@ -30,8 +30,8 @@ CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.tool
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 Detecting C compiler ABI info - done
@@ -43,8 +43,8 @@ CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.tool
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
@@ -54,8 +54,8 @@ CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.tool
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
@@ -65,8 +65,8 @@ CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.tool
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 Detecting C compile features - done
@@ -78,8 +78,8 @@ CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.tool
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 Check for working CXX compiler: C:/android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
@@ -91,8 +91,8 @@ CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.tool
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 Detecting CXX compiler ABI info - done
@@ -104,8 +104,8 @@ CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.tool
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
@@ -115,8 +115,8 @@ CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.tool
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
@@ -126,8 +126,8 @@ CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.tool
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
@@ -137,8 +137,8 @@ CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.tool
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 
 Detecting CXX compile features - done

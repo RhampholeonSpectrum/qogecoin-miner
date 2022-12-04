@@ -1,4 +1,4 @@
-# Install script for directory: C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary
+# Install script for directory: C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/RelWithDebInfo/4b2r2r68/armeabi-v7a/src/main/cpp/libcpuminer/cmake_install.cmake")
+  include("C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/RelWithDebInfo/4b2r2r68/armeabi-v7a/src/main/cpp/libcpuminer/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/RelWithDebInfo/4b2r2r68/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/RelWithDebInfo/4b2r2r68/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

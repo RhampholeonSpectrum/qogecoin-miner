@@ -16,8 +16,8 @@ CMAKE SERVER: {
     "major": 1,
     "minor": 1
   },
-  "sourceDirectory": "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary",
-  "buildDirectory": "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86",
+  "sourceDirectory": "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary",
+  "buildDirectory": "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86",
   "generator": "Ninja"
 }
 
@@ -47,7 +47,7 @@ CMAKE SERVER: {
     "-DCMAKE_ANDROID_ARCH_ABI\u003dx86",
     "-DCMAKE_ANDROID_NDK\u003dC:\\android\\sdk\\ndk\\24.0.8215888",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\wallet_app\\tidecoin-android-miner\\bitzenymininglibrary\\build\\intermediates\\cmake\\kitkatDebug\\obj\\x86",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\GitHub\\qoge\\qogeminer_4\\bitzenymininglibrary\\build\\intermediates\\cmake\\kitkatDebug\\obj\\x86",
     "-DCMAKE_MAKE_PROGRAM\u003dC:\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_SYSTEM_VERSION\u003d19",
@@ -99,7 +99,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -110,8 +110,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -120,8 +120,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -155,7 +155,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -166,8 +166,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -176,8 +176,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -211,7 +211,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -222,8 +222,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -232,8 +232,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -247,7 +247,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -258,8 +258,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -268,8 +268,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -283,7 +283,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -294,8 +294,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -304,8 +304,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -339,7 +339,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -350,8 +350,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -360,8 +360,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -395,7 +395,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -406,8 +406,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -416,8 +416,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -451,7 +451,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -462,8 +462,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -472,8 +472,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -487,7 +487,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -498,8 +498,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -508,8 +508,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -523,7 +523,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -534,8 +534,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -544,8 +544,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -559,7 +559,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -570,8 +570,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake:415 (message):
   An old version of CMake is being used that cannot automatically detect
@@ -580,8 +580,8 @@ CMAKE SERVER: CMake Warning at C:/android/sdk/ndk/24.0.8215888/build/cmake/andro
   CMake's built-in compiler identification.
 Call Stack (most recent call first):
   C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake:54 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
-  C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 CMAKE SERVER: 
 
@@ -720,7 +720,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/CMakeLists.txt","properties":["change"],"type":"signal"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/CMakeLists.txt","properties":["change"],"type":"signal"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -728,7 +728,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/src/main/cpp/libcpuminer/CMakeLists.txt","properties":["change"],"type":"signal"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/src/main/cpp/libcpuminer/CMakeLists.txt","properties":["change"],"type":"signal"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -736,7 +736,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineASMCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMCompiler.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-ASM.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-ASM.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestASMCompiler.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake","C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake","C:/android/sdk/ndk/24.0.8215888/build/cmake/platforms.cmake","C:/android/sdk/ndk/24.0.8215888/build/cmake/compiler_id.cmake","C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake","src/main/cpp/libcpuminer/CMakeLists.txt"]},{"isCMake":false,"isTemporary":true,"sources":[".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake",".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeASMCompiler.cmake"]}],"cmakeRootDirectory":"C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary","type":"reply"}
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineASMCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMCompiler.cmake.in","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMInformation.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-ASM.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-ASM.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestASMCompiler.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake","C:/android/sdk/ndk/24.0.8215888/build/cmake/android-legacy.toolchain.cmake","C:/android/sdk/ndk/24.0.8215888/build/cmake/platforms.cmake","C:/android/sdk/ndk/24.0.8215888/build/cmake/compiler_id.cmake","C:/android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake","src/main/cpp/libcpuminer/CMakeLists.txt"]},{"isCMake":false,"isTemporary":true,"sources":[".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake",".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.c",".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/kitkatDebug/x86/CMakeFiles/feature_tests.cxx",".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/kitkatDebug/x86/CMakeFiles/3.10.2/CMakeASMCompiler.cmake"]}],"cmakeRootDirectory":"C:/android/sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary","type":"reply"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
@@ -750,7 +750,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86","name":"Project","sourceDirectory":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary","targets":[{"artifacts":["C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/src/main/cpp/libcpuminer/libcpuminer.a"],"buildDirectory":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/src/main/cpp/libcpuminer","fileGroups":[{"compileFlags":" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__KITKAT__ -g -O3 -fno-limit-debug-info  -fPIC  ","defines":["__STDC_CONSTANT_MACROS","__STDC_LIMIT_MACROS","__linux"],"includePath":[{"path":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/src/main/cpp/libcpuminer"},{"path":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/zlib/include"},{"path":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/curl/include"},{"path":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/jansson/include"}],"isGenerated":false,"language":"C","sources":["scrypt.c","sha2.c","util.c","yescrypt.c","yespower/yespower.c","yespower/sha256.c","libcpuminer.c"]},{"compileFlags":"-g -O3 -fno-limit-debug-info  -fPIC  ","defines":["__STDC_CONSTANT_MACROS","__STDC_LIMIT_MACROS","__linux"],"includePath":[{"path":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/src/main/cpp/libcpuminer"},{"path":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/zlib/include"},{"path":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/curl/include"},{"path":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/../distribution/jansson/include"}],"isGenerated":false,"language":"ASM","sources":["scrypt-arm.S","scrypt-x64.S","scrypt-x86.S","sha2-arm.S","sha2-x64.S","sha2-x86-notextrel.S"]}],"fullName":"libcpuminer.a","linkerLanguage":"C","name":"cpuminer","sourceDirectory":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/src/main/cpp/libcpuminer","sysroot":"C:/android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/build/intermediates/cmake/kitkatDebug/obj/x86/libbitzenymininglibrary.so"],"buildDirectory":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fexceptions -fno-limit-debug-info  -fPIC  ","defines":["bitzenymininglibrary_EXPORTS"],"isGenerated":false,"language":"CXX","sources":["src/main/cpp/bitzenymininglibrary.cpp"]}],"fullName":"libbitzenymininglibrary.so","linkFlags":"-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-llog src\\main\\cpp\\libcpuminer\\libcpuminer.a ..\\..\\..\\..\\..\\distribution\\curl\\lib19\\x86\\libcurl.a ..\\..\\..\\..\\..\\distribution\\zlib\\lib19\\x86\\libz.a ..\\..\\..\\..\\..\\distribution\\jansson\\lib19\\x86\\libjansson.a -latomic -lm","linkerLanguage":"CXX","name":"bitzenymininglibrary","sourceDirectory":"C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary","sysroot":"C:/android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86","name":"Project","sourceDirectory":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary","targets":[{"artifacts":["C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/src/main/cpp/libcpuminer/libcpuminer.a"],"buildDirectory":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86/src/main/cpp/libcpuminer","fileGroups":[{"compileFlags":" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -D__KITKAT__ -g -O3 -fno-limit-debug-info  -fPIC  ","defines":["__STDC_CONSTANT_MACROS","__STDC_LIMIT_MACROS","__linux"],"includePath":[{"path":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/src/main/cpp/libcpuminer"},{"path":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/zlib/include"},{"path":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/curl/include"},{"path":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/jansson/include"}],"isGenerated":false,"language":"C","sources":["scrypt.c","sha2.c","util.c","yescrypt.c","yespower/yespower.c","yespower/sha256.c","libcpuminer.c"]},{"compileFlags":"-g -O3 -fno-limit-debug-info  -fPIC  ","defines":["__STDC_CONSTANT_MACROS","__STDC_LIMIT_MACROS","__linux"],"includePath":[{"path":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/src/main/cpp/libcpuminer"},{"path":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/zlib/include"},{"path":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/curl/include"},{"path":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/../distribution/jansson/include"}],"isGenerated":false,"language":"ASM","sources":["scrypt-arm.S","scrypt-x64.S","scrypt-x86.S","sha2-arm.S","sha2-x64.S","sha2-x86-notextrel.S"]}],"fullName":"libcpuminer.a","linkerLanguage":"C","name":"cpuminer","sourceDirectory":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/src/main/cpp/libcpuminer","sysroot":"C:/android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/build/intermediates/cmake/kitkatDebug/obj/x86/libbitzenymininglibrary.so"],"buildDirectory":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/x86","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fexceptions -fno-limit-debug-info  -fPIC  ","defines":["bitzenymininglibrary_EXPORTS"],"isGenerated":false,"language":"CXX","sources":["src/main/cpp/bitzenymininglibrary.cpp"]}],"fullName":"libbitzenymininglibrary.so","linkFlags":"-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-llog src\\main\\cpp\\libcpuminer\\libcpuminer.a ..\\..\\..\\..\\..\\distribution\\curl\\lib19\\x86\\libcurl.a ..\\..\\..\\..\\..\\distribution\\zlib\\lib19\\x86\\libz.a ..\\..\\..\\..\\..\\distribution\\jansson\\lib19\\x86\\libjansson.a -latomic -lm","linkerLanguage":"CXX","name":"bitzenymininglibrary","sourceDirectory":"C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary","sysroot":"C:/android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 

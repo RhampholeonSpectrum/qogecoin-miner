@@ -67,7 +67,7 @@ build ../../../../build/intermediates/cmake/kitkatDebug/obj/arm64-v8a/libbitzeny
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\wallet_app\tidecoin-android-miner\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a && C:\android\sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\GitHub\qoge\qogeminer_4\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a && C:\android\sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -76,14 +76,14 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\wallet_app\tidecoin-android-miner\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a && C:\android\sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\wallet_app\tidecoin-android-miner\bitzenymininglibrary -BC:\wallet_app\tidecoin-android-miner\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\GitHub\qoge\qogeminer_4\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a && C:\android\sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\GitHub\qoge\qogeminer_4\bitzenymininglibrary -BC:\GitHub\qoge\qogeminer_4\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/CMakeLists.txt
+# C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/CMakeLists.txt
 # =============================================================================
 
 
@@ -91,7 +91,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build src/main/cpp/libcpuminer/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\wallet_app\tidecoin-android-miner\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a\src\main\cpp\libcpuminer && C:\android\sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\GitHub\qoge\qogeminer_4\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a\src\main\cpp\libcpuminer && C:\android\sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 build src/main/cpp/libcpuminer/edit_cache: phony src/main/cpp/libcpuminer/CMakeFiles/edit_cache.util
@@ -214,7 +214,7 @@ build src/main/cpp/libcpuminer/libcpuminer.a: C_STATIC_LIBRARY_LINKER__cpuminer 
 # Utility command for rebuild_cache
 
 build src/main/cpp/libcpuminer/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\wallet_app\tidecoin-android-miner\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a\src\main\cpp\libcpuminer && C:\android\sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\wallet_app\tidecoin-android-miner\bitzenymininglibrary -BC:\wallet_app\tidecoin-android-miner\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\GitHub\qoge\qogeminer_4\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a\src\main\cpp\libcpuminer && C:\android\sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\GitHub\qoge\qogeminer_4\bitzenymininglibrary -BC:\GitHub\qoge\qogeminer_4\bitzenymininglibrary\.cxx\cmake\kitkatDebug\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -233,7 +233,7 @@ build libcpuminer.a: phony src/main/cpp/libcpuminer/libcpuminer.a
 # =============================================================================
 
 #############################################
-# Folder: C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/cmake/kitkatDebug/arm64-v8a/src/main/cpp/libcpuminer
+# Folder: C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/cmake/kitkatDebug/arm64-v8a/src/main/cpp/libcpuminer
 
 build  src/main/cpp/libcpuminer/all: phony cpuminer
 # =============================================================================

@@ -1,11 +1,15 @@
 package com.example.ottylab.bitzenyminer;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.os.BatteryManager;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
@@ -13,10 +17,16 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.example.ottylab.bitzenymininglibrary.BitZenyMiningLibrary;
+
+import com.github.anastr.speedviewlib.TubeSpeedometer;
+import com.github.anastr.speedviewlib.components.Section;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.lang.ref.WeakReference;
 import java.util.concurrent.BlockingQueue;
@@ -29,15 +39,27 @@ public class MainActivity extends AppCompatActivity {
     private BitZenyMiningLibrary miner;
 
     private EditText editTextUser;
-    private EditText editTextNThreads;
     private Button buttonDrive;
-    private Spinner poolSelection;
     private TextView textViewLog;
+
+    public static Context contextOfApplication;
+    public static Context getContextOfApplication() {
+        return contextOfApplication;
+    }
 
     private boolean running;
     private BlockingQueue<String> logs = new LinkedBlockingQueue<>(LOG_LINES);
 
-    private static class JNICallbackHandler extends Handler {
+    private float maxHashrate = 1;
+    private int usedCPUs = 1;
+    private int numberCpuMax = 1;
+
+    private int BatteryTemp;
+
+    // creating a variable for our button.
+    private Button settingsBtn;
+
+    private class JNICallbackHandler extends Handler {
         private final WeakReference<MainActivity> activity;
 
         public JNICallbackHandler(MainActivity activity) {
@@ -47,7 +69,68 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void handleMessage(Message msg) {
 
-            System.out.print(msg);
+            // calculate approximated hashes
+            if (msg.getData().getString("log").contains("hashes")) {
+                String[] subStrings = msg.getData().getString("log").split(",");
+                if (subStrings.length == 2) {
+                    // set hashrate to speed o meter
+                    int end = subStrings[1].indexOf("h");
+                    String hashValue = subStrings[1].substring(1, end-1);
+                    double d = Double.parseDouble(hashValue);
+                    TubeSpeedometer meterHashrate = findViewById(R.id.meter_hashrate);
+                    meterHashrate.makeSections(1, getResources().getColor(R.color.c_blue), Section.Style.SQUARE);
+
+                    // multiply hashrate from one core (this hashrate) with cores which are used
+                    double hashRateForUsedCores = usedCPUs * d;
+
+                    if (maxHashrate < ((float) numberCpuMax * d)) {
+                        maxHashrate = ((float) numberCpuMax * (float) d);
+                    }
+
+                    meterHashrate.setMaxSpeed(maxHashrate);
+                    meterHashrate.speedTo((float) hashRateForUsedCores);
+
+                    // set hashrate to string
+                    TextView tvHashrate = findViewById(R.id.hashrate);
+                    tvHashrate.setText(String.valueOf(Math.round(hashRateForUsedCores)));
+                }
+            }
+
+            IntentFilter intentfilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+            MainActivity.this.registerReceiver(broadcastreceiver,intentfilter);
+
+            System.out.print("BatteryTemp");
+            Math.round(BatteryTemp);
+            System.out.print(Math.round(BatteryTemp));
+
+            // show accu temp
+            TextView accuTemp = findViewById(R.id.accuTemp);
+            accuTemp.setText(String.valueOf(BatteryTemp));
+
+            // get "real" hashes with last accepted share
+            if (msg.getData().getString("log").contains("yay!!!")) {
+                String[] subStrings = msg.getData().getString("log").split(",");
+                if (subStrings.length == 2) {
+                    // set hashrate to speed o meter
+                    int end = subStrings[1].indexOf("h");
+                    String hashValue = subStrings[1].substring(1, end-1);
+                    double d = Double.parseDouble(hashValue);
+                    TubeSpeedometer meterHashrate = findViewById(R.id.meter_hashrate);
+                    meterHashrate.makeSections(1, getResources().getColor(R.color.c_blue), Section.Style.SQUARE);
+
+                    // will set the highest value as maximum hashrate
+                    if (maxHashrate < ((float) d)) {
+                        maxHashrate = ((float) d);
+                        meterHashrate.setMaxSpeed(maxHashrate);
+                    }
+
+                    meterHashrate.speedTo((float) d);
+
+                    // set hashrate to string
+                    TextView tvHashrate = findViewById(R.id.hashrate);
+                    tvHashrate.setText(String.valueOf(Math.round(d)));
+                }
+            }
 
             MainActivity activity = this.activity.get();
             if (activity != null) {
@@ -79,43 +162,45 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        editTextNThreads = (EditText) findViewById(R.id.editTextNThreads);
-        editTextNThreads.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View view, boolean b) {
-                storeSetting();
-            }
-        });
-
         buttonDrive = (Button) findViewById(R.id.buttonDrive);
         buttonDrive.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                String poolAddress = "";
-                if (poolSelection.getSelectedItemPosition() == 0 ){
-                    poolAddress = "stratum+tcp://eu1-pool.tidecoin.exchange:3033";
-                }
-                if (poolSelection.getSelectedItemPosition() == 1 ){
-                    poolAddress = "stratum+tcp://178.170.40.44:6243";
-                }
-
                 if (running) {
                     Log.d(TAG, "Stop");
                     miner.stopMining();
+
+                    // meter Hashrate
+                    TubeSpeedometer meterHashrate = findViewById(R.id.meter_hashrate);
+                    maxHashrate = 1;
+                    meterHashrate.speedTo(0);
+
+                    // set hashrate to string
+                    TextView tvHashrate = findViewById(R.id.hashrate);
+                    tvHashrate.setText("-");
+
                 } else {
                     Log.d(TAG, "Start");
-                    int n_threads = 0;
-                    try {
-                        n_threads = Integer.parseInt(editTextNThreads.getText().toString());
-                    } catch (NumberFormatException e){}
 
-                    BitZenyMiningLibrary.Algorithm algorithm = BitZenyMiningLibrary.Algorithm.YESPOWER;
+                    // get set value for cpu cores
+                    SeekBar seekBar = findViewById(R.id.seekBar);
+                    seekBar.toString();
+                    usedCPUs = seekBar.getProgress();
+
+                    // set value for cpu to speed o meter
+                    TubeSpeedometer meterCores = findViewById(R.id.meter_cores);
+                    meterCores.makeSections(1, getResources().getColor(R.color.c_yellow), Section.Style.SQUARE);
+                    meterCores.setMaxSpeed(numberCpuMax);
+                    meterCores.speedTo(usedCPUs, numberCpuMax);
+
+
+                    BitZenyMiningLibrary.Algorithm algorithm = BitZenyMiningLibrary.Algorithm.YESCRYPT;
                     miner.startMining(
-                            poolAddress,
-                            editTextUser.getText().toString(),
-                            "c=TDC",
-                            n_threads,
+                            "stratum+tcp://yescryptR16.eu.mine.zpool.ca:6333",
+                            editTextUser.getText().toString() + ".AndroidMiner",
+                            "c=QOGE,zap=QOGE",
+                            usedCPUs,
                             algorithm);
                 }
 
@@ -124,16 +209,37 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        poolSelection = (Spinner) findViewById(R.id.poolSelection);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.poolUsed, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        poolSelection.setAdapter(adapter);
-
         textViewLog = (TextView) findViewById(R.id.textViewLog);
         textViewLog.setMovementMethod(new ScrollingMovementMethod());
 
         restoreSetting();
         changeState(miner.isMiningRunning());
+
+        // get number of cpu cores
+        CPUCores cpuCores = new CPUCores();
+        cpuCores.main();
+        numberCpuMax = cpuCores.numberCPUs;
+
+        // init slider with number of cores
+        SeekBar seekBar = findViewById(R.id.seekBar);
+        seekBar.setMax(cpuCores.numberCPUs);
+        seekBar.setMin(1);
+
+        // enable speed o meter for cores
+        TubeSpeedometer meterCores = findViewById(R.id.meter_cores);
+        meterCores.makeSections(1, getResources().getColor(R.color.c_yellow), Section.Style.SQUARE);
+        meterCores.setMaxSpeed(numberCpuMax);
+        meterCores.speedTo(0, 1);
+
+        // Hashrate
+        TubeSpeedometer meterHashrate = findViewById(R.id.meter_hashrate);
+        meterHashrate.makeSections(1, getResources().getColor(R.color.c_blue), Section.Style.SQUARE);
+        meterCores.setMaxSpeed(10);
+        meterHashrate.speedTo(0);
+
+        // default hashrate to string
+        TextView tvHashrate = findViewById(R.id.hashrate);
+        tvHashrate.setText("-");
     }
 
     private void changeState(boolean running) {
@@ -144,24 +250,18 @@ public class MainActivity extends AppCompatActivity {
 
     private void disableSetting(boolean running) {
         editTextUser.setEnabled(!running);
-        editTextNThreads.setEnabled(!running);
-        poolSelection.setEnabled(!running);
     }
 
     private void storeSetting() {
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editor = pref.edit();
         editor.putString("user", editTextUser.getText().toString());
-        editor.putString("n_threads", editTextNThreads.getText().toString());
-        editor.putInt("pool", poolSelection.getSelectedItemPosition());
         editor.commit();
     }
 
     private void restoreSetting() {
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
         editTextUser.setText(pref.getString("user", null));
-        editTextNThreads.setText(pref.getString("n_threads", null));
-        poolSelection.setSelection(pref.getInt("pool", 0));
     }
 
     private void showDeviceInfo() {
@@ -174,5 +274,22 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "MANUFACTURER: " + Build.MANUFACTURER);
         Log.d(TAG, "MODEL: " + Build.MODEL);
         Log.d(TAG, "PRODUCT: " + Build.PRODUCT);
+    }
+
+    private BroadcastReceiver broadcastreceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            BatteryTemp = (int)(intent.getIntExtra(BatteryManager.EXTRA_TEMPERATURE,0))/10; // FIXME avoid casting to float
+        }
+    };
+}
+
+class CPUCores {
+    public int numberCPUs = 1;
+
+    public void main() {
+        int processors = Runtime.getRuntime().availableProcessors();
+        System.out.println("CPU cores: " + processors);
+        numberCPUs = processors;
     }
 }

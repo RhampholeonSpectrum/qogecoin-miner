@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.yentencoin.yentenminer",
+  "applicationId": "com.example.qogecoin.qogeminer",
   "variantName": "standardRelease",
   "elements": [
     {

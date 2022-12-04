@@ -255,7 +255,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/Debug/3c2m354g/x86"
+			"value" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/Debug/3c2m354g/x86"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -795,7 +795,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary"
+			"value" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -831,7 +831,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\wallet_app\\tidecoin-android-miner\\bitzenymininglibrary\\build\\intermediates\\cxx\\Debug\\3c2m354g\\obj\\x86"
+			"value" : "C:\\GitHub\\qoge\\qogeminer_4\\bitzenymininglibrary\\build\\intermediates\\cxx\\Debug\\3c2m354g\\obj\\x86"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1103,7 +1103,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\wallet_app\\tidecoin-android-miner\\bitzenymininglibrary\\build\\intermediates\\cxx\\Debug\\3c2m354g\\obj\\x86"
+			"value" : "C:\\GitHub\\qoge\\qogeminer_4\\bitzenymininglibrary\\build\\intermediates\\cxx\\Debug\\3c2m354g\\obj\\x86"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1375,7 +1375,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary/.cxx/Debug/3c2m354g/x86"
+			"value" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary/.cxx/Debug/3c2m354g/x86"
 		},
 		{
 			"name" : "Project_SOURCE_DIR",
@@ -1387,7 +1387,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/wallet_app/tidecoin-android-miner/bitzenymininglibrary"
+			"value" : "C:/GitHub/qoge/qogeminer_4/bitzenymininglibrary"
 		},
 		{
 			"name" : "TARGET",

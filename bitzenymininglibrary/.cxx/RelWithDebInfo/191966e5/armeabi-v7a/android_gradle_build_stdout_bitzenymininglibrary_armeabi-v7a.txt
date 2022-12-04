@@ -1,4 +1,4 @@
-ninja: Entering directory `C:\wallet_app\tidecoin-android-miner\bitzenymininglibrary\.cxx\RelWithDebInfo\191966e5\armeabi-v7a'
+ninja: Entering directory `C:\GitHub\qoge\qogeminer_4\bitzenymininglibrary\.cxx\RelWithDebInfo\191966e5\armeabi-v7a'
 [1/16] Building CXX object CMakeFiles/bitzenymininglibrary.dir/src/main/cpp/bitzenymininglibrary.cpp.o
 [2/16] Building ASM object src/main/cpp/libcpuminer/CMakeFiles/cpuminer.dir/sha2-x64.S.o
 [3/16] Building C object src/main/cpp/libcpuminer/CMakeFiles/cpuminer.dir/sha2.c.o
